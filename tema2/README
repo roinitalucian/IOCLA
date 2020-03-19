@@ -1,0 +1,14 @@
+Roinita Lucian-Teodor
+325CA
+IOCLA - tema 2
+
+Task 1
+	Am pus rezultatele in eax, apoi l-am transmis pe eax
+pe stiva prin toate functiile intermediare, pentru a-l putea
+folosi ulterior la task-ul 2, fara sa utilizez variabile.
+
+Task 3
+	Am creat o constanta string in care am pus toate caractere
+si codificarea lor Morse aferenta, separate de caracterul '_', dupa
+care am folosit stringul sa gasesc caracterele.
+

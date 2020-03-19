@@ -1,0 +1,20 @@
+Roinita Lucian-Teodor
+325CA
+IOCLA - Tema 1 - Prefix AST
+
+Am rezolvat problema folosind o functie recursiva (evaluate), care primeste ca
+paramentru adresa unui nod.
+
+Functia verifica intai daca nodul contine un numar (este frunza) sau o operatie
+(are copii), comparand primul caracter gasit in campul data cu semnele celor patru
+operatii.
+
+Rezultatul functiei este scrierea in registrul eax a rezultatului unui nod, acesta
+fiind chiar numarul in cazul frunzelor, sau rezultatul operatiei in cazul nodurilor
+neterminale.
+
+Mai folosesc pe langa aceasta functie inca una care converteste un sir de caractere
+intr-un numar, pe care il scrie in ebx. Functia apeleaza, la randul sau, o alta
+functie care scade '0' din caracterul aferent unei cifre, pentru a determina
+valoarea sa efectiva.
+
